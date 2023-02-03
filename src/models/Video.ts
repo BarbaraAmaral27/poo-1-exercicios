@@ -25,24 +25,24 @@ export class Video{
     public setDuration(value:number):void {
         this.duration = value;
     }
-    public getUploadAT(): string{
+    public getUploadAt(): string{
         return this.uploadAt;
     }
-    public setUploadAT(value:string):void {
+    public setUploadAt(value:string):void {
         this.uploadAt = value;
     }
 }
 
-    const video2 = new Video(
+    const bananinhaVideo = new Video(
         "u003",
         "Astrodev",
         120,
         "2023-01-30 10:02:00"
     )
 
-    console.table(video2)
-    console.log("Id video:", video2.getId());
-    video2.setTitle("Estudos Node")
-    console.table(video2)
+    console.table(bananinhaVideo)
+    console.log("Id video:", bananinhaVideo.getId());
+    bananinhaVideo.setTitle("Estudos Node")
+    console.table(bananinhaVideo)
     
 

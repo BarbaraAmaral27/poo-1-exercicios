@@ -7,7 +7,7 @@ CREATE TABLE videos(
 );
 
 INSERT INTO videos (id, title, duration)
-VALUES ("v001","Video React", "300"),
-        ("v002","Video Typescript", "360");
+VALUES ("v001","Video React", 300),
+        ("v002","Video Typescript", 360);
 
 SELECT * FROM videos;
